@@ -8,6 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Aaaaa, I love you too ❤️";
   gif.src =
     "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
+  yesBtn.style.display = "hidden";
 });
 
 noBtn.addEventListener("mouseover", () => {
