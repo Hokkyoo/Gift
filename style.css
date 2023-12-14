@@ -23,7 +23,7 @@ h2 {
     text-align: center;
     font-size: 1.5em;
     color: #e94d58;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .btn-group {
     width: 100%;
@@ -35,7 +35,7 @@ h2 {
 button {
     position: absolute;
     width: 150px;
-    height: inherit;
+    height: 30px;
     color: white;
     font-size: 1.2em;
     border-radius: 30px;
@@ -46,11 +46,13 @@ button {
     font-size: 1.2em;
 }
 button:nth-child(1) {
-    margin-left: -200px;
+    bottom: auto;
+    margin-left: 160px;
     background: #e94d58;
 }
 button:nth-child(2) {
-    margin-right: -200px;
+    bottom: auto;
+    margin-left: -10px;
     background: white;
     color: #e94d58;
 }
