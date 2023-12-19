@@ -57,7 +57,7 @@ button:nth-child(2) {
     color: #e94d58;
 }
 button:nth-child(3) {
-    bottom: 240px;
+    bottom: auto;
     margin-left: 90px;
     background:#e94d58;
     color: white;
